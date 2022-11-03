@@ -1,51 +1,51 @@
 
-cp -r ./ ~/Desktop/nvim-update
+# cp -r ./ ~/Desktop/nvim-update
 
-cd ~/Desktop/nvim-update 
+# cd ~/Desktop/nvim-update 
 
-find ./ -name .git |xargs rm -rf
+# find ./ -name .git |xargs rm -rf
 
-find ./ -name .github |xargs rm -rf
+# find ./ -name .github |xargs rm -rf
 
 
 
-# Echo time information to Changelog file.
-time=$(date "+%Y-%m-%d %H:%M:%S")
+# # Echo time information to Changelog file.
+# time=$(date "+%Y-%m-%d %H:%M:%S")
+# # echo -e "\nLast updated by **`whoami`** at: "${time} >> "README.md"
+
+# # echo git diff
+
+# # echo -e "\`\`\`txt\n" >> changelog.md
+
+# # git diff >> changelog.md
+
+# # echo -e "\n\`\`\`" >> changelog.md
+
+# # echo tree directories to tree.md
+
+# # echo -e "# Directories\n\n\`\`\`shell\n" > "TREE.md"
+
+# # tree >> "TREE.md"
+
+# # echo -e "\n\`\`\`" >> "TREE.md"
+
+# # echo username and updated date to README.md
+
 # echo -e "\nLast updated by **`whoami`** at: "${time} >> "README.md"
 
-# echo git diff
+# # tree > "TREE.txt"
 
-# echo -e "\`\`\`txt\n" >> changelog.md
+# # LINK
 
-# git diff >> changelog.md
-
-# echo -e "\n\`\`\`" >> changelog.md
-
-# echo tree directories to tree.md
-
-# echo -e "# Directories\n\n\`\`\`shell\n" > "TREE.md"
-
-# tree >> "TREE.md"
-
-# echo -e "\n\`\`\`" >> "TREE.md"
-
-# echo username and updated date to README.md
-
-echo -e "\nLast updated by **`whoami`** at: "${time} >> "README.md"
-
-# tree > "TREE.txt"
-
-# LINK
-
-# files=$(tree -if)
-# main=LINK.md
-# cat /dev/null > $main
-# for i in $files; do
-#   if [ $i != 'deploy.sh' ] && [ $i != '.gitignore' ]; then
-#     echo -e '['$i'](./'$i')\n' >> $main
-#   fi
-# done
-# echo '首页文件生成完毕'
+# # files=$(tree -if)
+# # main=LINK.md
+# # cat /dev/null > $main
+# # for i in $files; do
+# #   if [ $i != 'deploy.sh' ] && [ $i != '.gitignore' ]; then
+# #     echo -e '['$i'](./'$i')\n' >> $main
+# #   fi
+# # done
+# # echo '首页文件生成完毕'
 
 # github deploy
 
@@ -56,6 +56,6 @@ git branch -M main
 git remote add origin git@github.com:desonglll/neovim.git
 git push -u origin main -f
 
-cd ~/Desktop
+# cd ~/Desktop
 
-rm -rf nvim-update
+# rm -rf nvim-update
