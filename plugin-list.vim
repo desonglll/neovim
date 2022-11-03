@@ -3,7 +3,7 @@
 
 call plug#begin('$HOME/.vim/plugged')
 
-"Plug 'git@github.com:tpope/vim-surround' " Surrounding ysw)
+Plug 'git@github.com:tpope/vim-surround' " Surrounding ysw)
 Plug 'git@github.com:tpope/vim-commentary' " For Commenting gcc & gc
 Plug 'git@github.com:vim-airline/vim-airline' " Status bar
 Plug 'git@github.com:ap/vim-css-color' " CSS Color Preview
@@ -26,7 +26,7 @@ Plug 'git@github.com:vim-autoformat/vim-autoformat'
 Plug 'git@github.com:folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'git@github.com:iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'git@github.com:dense-analysis/ale' " Syntax testing.
-" Plug 'git@github.com:SirVer/ultisnips'
+Plug 'git@github.com:SirVer/ultisnips'
 Plug 'git@github.com:honza/vim-snippets'
 Plug 'git@github.com:jiangmiao/auto-pairs'
 Plug 'git@github.com:neovim/nvim-lspconfig'
