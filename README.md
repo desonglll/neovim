@@ -20,7 +20,7 @@ description:
     - [Neovim](#neovim)
       - [Unix, Linux](#unix-linux)
       - [Linux (Flatpak)](#linux-flatpak)
-        - [Windows (PowerShell)](#windows-powershell-1)
+      - [Windows (PowerShell)](#windows-powershell-1)
 - [插件列表](#插件列表)
   - [vim-surround](#vim-surround)
 - [我的](#我的)
