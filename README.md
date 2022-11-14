@@ -4,21 +4,31 @@ date: 2022/10/04/ 21:43:22
 description: 
 ---
 
-
+- [安装 homebrew 2022.07.13](#安装-homebrew-20220713)
+  - [1. 设置USTC的镜像](#1-设置ustc的镜像)
+  - [2. 安装homebrew](#2-安装homebrew)
+  - [3. 添加Homebrew到环境变量](#3-添加homebrew到环境变量)
+  - [有关报错](#有关报错)
+    - [brew update的错误](#brew-update的错误)
+- [安装yarn](#安装yarn)
+- [安装neovim](#安装neovim)
+- [安装vim-plug](#安装vim-plug)
+- [插件列表](#插件列表)
+  - [vim-surround](#vim-surround)
+- [我的](#我的)
+- [后续](#后续)
+- [案件冲突](#案件冲突)
+- [Github Update](#github-update)
 
 ## 安装 homebrew 2022.07.13
 
 Homebrew的官方网站 [https://brew.sh/](https://brew.sh/)
-
-
 
 ### 1. 设置USTC的镜像
 
 ```shell
 HOMEBREW_CORE_GIT_REMOTE=https://mirrors.ustc.edu.cn/homebrew-core.git
 ```
-
-
 
 ### 2. 安装homebrew
 
@@ -27,8 +37,6 @@ HOMEBREW_CORE_GIT_REMOTE=https://mirrors.ustc.edu.cn/homebrew-core.git
 ```shell
 /bin/bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install.sh)"
 ```
-
-
 
 ### 3. 添加Homebrew到环境变量
 
@@ -39,8 +47,6 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$your username$/.zpro
 ```shell
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
-
-
 
 ### 有关报错
 
@@ -53,23 +59,17 @@ rm -rf $(brew --repo homebrew/core)
 brew tap homebrew/core
 ```
 
-
-
 ## 安装yarn
 
 ```shell
 brew install yarn
 ```
 
-
-
 ## 安装neovim
 
 ```shell
 brew install neovim
 ```
-
-
 
 ## 安装vim-plug
 
@@ -379,17 +379,13 @@ cnoreabbrev find Ag
 pip3 install jedi
 ```
 
-```
+```shell
 pip3 install pynvim
 ```
-
-
 
 ## 案件冲突
 
 在命令模式下输入：`verbose map <key>`就可以查看按键`<key>`的映射
-
-
 
 ## Github Update
 
@@ -424,4 +420,3 @@ cd ~/Desktop
 
 rm -rf nvim-update
 ```
-
