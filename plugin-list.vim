@@ -5,7 +5,11 @@ call plug#begin('$HOME/.vim/plugged')
 
 Plug 'git@github.com:tpope/vim-surround' " Surrounding ysw)
 Plug 'git@github.com:tpope/vim-commentary' " For Commenting gcc & gc
+
+
 Plug 'git@github.com:vim-airline/vim-airline' " Status bar
+Plug 'git@github.com:vim-airline/vim-airline-themes'
+
 Plug 'git@github.com:ap/vim-css-color' " CSS Color Preview
 " Plug 'git@github.com:tc50cal/vim-terminal' " Vim Terminal
 Plug 'git@github.com:preservim/tagbar' " Tagbar for code navigation
