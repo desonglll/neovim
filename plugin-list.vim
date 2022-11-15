@@ -22,12 +22,16 @@ Plug 'git@github.com:airblade/vim-gitgutter'
 Plug 'git@github.com:ctrlpvim/ctrlp.vim' " fuzzy find files
 Plug 'git@github.com:scrooloose/nerdcommenter'
 Plug 'git@github.com:christoomey/vim-tmux-navigator'
-Plug 'git@github.com:morhetz/gruvbox'
 Plug 'git@github.com:HerringtonDarkholme/yats.vim' " TS Syntax
 Plug 'git@github.com:junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'git@github.com:junegunn/fzf.vim'
 Plug 'git@github.com:vim-autoformat/vim-autoformat'
+
+" Theme
 Plug 'git@github.com:folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'git@github.com:morhetz/gruvbox'
+Plug 'git@github.com:haishanh/night-owl.vim'
+
 Plug 'git@github.com:iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'git@github.com:dense-analysis/ale' " Syntax testing.
 Plug 'git@github.com:SirVer/ultisnips'

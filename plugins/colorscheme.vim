@@ -1,7 +1,7 @@
 
 " Theme gruvbox
 " let g:gruvbox_contrast_light=('soft')
-colorscheme gruvbox
+" colorscheme gruvbox
 set background=dark
 
 " Theme tokyonight
@@ -11,3 +11,16 @@ set background=dark
 " colorscheme tokyonight-storm
 " colorscheme tokyonight-day
 " colorscheme tokyonight-moon
+
+" Theme Night Owl
+
+" If you have vim >=8.0 or Neovim >= 0.1.5
+if (has("termguicolors"))
+ set termguicolors
+endif
+
+""""" enable the theme
+colorscheme night-owl
+
+" To enable the lightline theme
+" let g:lightline = { 'colorscheme': 'nightowl' }
