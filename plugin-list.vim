@@ -1,7 +1,6 @@
 " Specify a directory for plugins
 " call plug#begin('~/.vim/plugged')
 
-
 call plug#begin('$HOME/.vim/plugged')
 
 
@@ -34,7 +33,7 @@ Plug 'git@github.com:haishanh/night-owl.vim'
 Plug 'git@github.com:iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'git@github.com:dense-analysis/ale' " Syntax testing.
 
-" Plug 'git@github.com:SirVer/ultisnips'
+Plug 'git@github.com:SirVer/ultisnips'
 " Plug 'git@github.com:honza/vim-snippets'
 
 Plug 'git@github.com:jiangmiao/auto-pairs'
