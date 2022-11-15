@@ -12,4 +12,3 @@ set smarttab
 set cindent
 " always uses spaces instead of tab characters
 set expandtab
-
