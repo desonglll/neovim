@@ -181,13 +181,19 @@ Plug 'git@github.com:mbbill/undotree'
 call plug#end()
 ```
 
+
+
+### vim-fugitive
+
+https://github.com/tpope/vim-fugitive
+
 ### vim-surround
 
-```
-Plug 'git@github.com:tpope/vim-surround' " Surrounding ysw)
-```
+https://github.com/tpope/vim-surround
 
-使用ysw进行surrounding
+### syntastic
+
+https://github.com/vim-syntastic/syntastic
 
 ## 我的
 

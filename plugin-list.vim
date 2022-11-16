@@ -5,7 +5,9 @@ call plug#begin('$HOME/.vim/plugged')
 
 Plug 'git@github.com:tpope/vim-fugitive.git'
 
+Plug 'git@github.com:brooth/far.vim.git'
 
+Plug 'git@github.com:vim-syntastic/syntastic.git'
 
 Plug 'git@github.com:tpope/vim-surround' " Surrounding ysw)
 Plug 'git@github.com:tpope/vim-commentary' " For Commenting gcc & gc
