@@ -28,6 +28,10 @@ description:
 - [案件冲突](#案件冲突)
 - [Github Update](#github-update)
 
+    ![pic alt](path "opt title")
+
+
+
 ## 安装 homebrew 2022.07.13
 
 Homebrew的官方网站 [https://brew.sh/](https://brew.sh/)
