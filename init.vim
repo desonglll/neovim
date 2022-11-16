@@ -3,6 +3,7 @@ source $HOME/.config/nvim/plugin-list.vim
 source $HOME/.config/nvim/global/keymaps.vim
 source $HOME/.config/nvim/global/options.vim
 source $HOME/.config/nvim/global/vim-bracketed-paste.vim
+source $HOME/.config/nvim/global/AutoSave.vim
 
 source $HOME/.config/nvim/plugins/coc.vim
 source $HOME/.config/nvim/plugins/nerdtree.vim
