@@ -1,5 +1,11 @@
 inoremap jk <ESC> 
-inoremap wq <ESC> :wq<CR>
+
+" alias wq to <ESC> && :wq
+nnoremap wq <ESC> :wq<CR>
+
+nnoremap nn :bn<CR>
+nnoremap NN :bp<CR>
+
 
 " NERDTree
 cnoreabbrev tree NERDTree
