@@ -13,3 +13,4 @@ source $HOME/.config/nvim/plugins/colorscheme.vim
 
 source $HOME/.config/nvim/plugins/ultisnips.vim
 " colorscheme tokyonight
+
