@@ -12,5 +12,7 @@ source $HOME/.config/nvim/plugins/colorscheme.vim
 " source $HOME/.config/nvim/plugins/jellybeans.vim
 
 source $HOME/.config/nvim/plugins/ultisnips.vim
-" colorscheme tokyonight
+source $HOME/.config/nvim/plugins/vim-markdown-preview.vim
+source $HOME/.config/nvim/plugins/tagbar.vim
+source $HOME/.config/nvim/plugins/auto-save.vim
 
