@@ -1,4 +1,5 @@
 inoremap jk <ESC> 
+inoremap wq <ESC> :wq<CR>
 
 " NERDTree
 cnoreabbrev tree NERDTree
