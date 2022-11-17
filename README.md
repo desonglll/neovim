@@ -201,6 +201,12 @@ far.vim - Find And Replace Vim plugin
 
 https://github.com/brooth/far.vim
 
+
+
+### Coc
+
+`CocInstall coc-tabnine`
+
 ## 我的
 
 ```
