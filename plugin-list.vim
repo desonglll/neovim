@@ -6,6 +6,9 @@ call plug#begin('$HOME/.vim/plugged')
 " vim-markdown
 " Plug 'git@github.com:godlygeek/tabular'
 " Plug 'git@github.com:preservim/vim-markdown'
+
+Plug 'git@github.com:voldikss/vim-floaterm.git'
+
 Plug 'git@github.com:easymotion/vim-easymotion'
 
 " wilder vim terminal auto completion.
