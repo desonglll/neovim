@@ -7,6 +7,7 @@ nnoremap wq <ESC> :wq<CR>
 nnoremap tn :bn<CR>
 nnoremap tp :bp<CR>
 
+nnoremap c` :FloatermToggle<CR>
 
 " NERDTree
 cnoreabbrev tree NERDTree
