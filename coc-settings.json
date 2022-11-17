@@ -1,3 +1,4 @@
 {
-    "snippets.userSnippetsDirectory": "~/.config/nvim/plugins/Ultisnips"
+    "snippets.userSnippetsDirectory": "~/.config/nvim/plugins/Ultisnips",
+    "snippets.ultisnips.pythonPrompt": false
 }
