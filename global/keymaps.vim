@@ -1,10 +1,11 @@
+let mapleader = "\\"
 inoremap jk <ESC> 
 
 " alias wq to <ESC> && :wq
 nnoremap wq <ESC> :wq<CR>
 
-nnoremap nn :bn<CR>
-nnoremap NN :bp<CR>
+nnoremap tn :bn<CR>
+nnoremap tp :bp<CR>
 
 
 " NERDTree

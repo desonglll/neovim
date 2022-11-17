@@ -3,6 +3,11 @@
 
 call plug#begin('$HOME/.vim/plugged')
 
+" vim-markdown
+" Plug 'git@github.com:godlygeek/tabular'
+" Plug 'git@github.com:preservim/vim-markdown'
+Plug 'git@github.com:easymotion/vim-easymotion'
+
 Plug 'git@github.com:tpope/vim-fugitive.git'
 
 Plug 'git@github.com:brooth/far.vim.git'
@@ -19,7 +24,10 @@ Plug 'git@github.com:preservim/tagbar' " Tagbar for code navigation
 Plug 'git@github.com:terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'git@github.com:neoclide/coc.nvim', {'branch': 'release'}
 Plug 'git@github.com:preservim/nerdtree' " NerdTree
-" Plug 'git@github.com:tiagofumo/vim-nerdtree-syntax-highlight'
+" Plug 'git@github.com:tiagofumo/vim-nerdtree-syntax-highligh'
+
+
+
 Plug 'git@github.com:ryanoasis/vim-devicons'
 Plug 'git@github.com:airblade/vim-gitgutter'
 Plug 'git@github.com:ctrlpvim/ctrlp.vim' " fuzzy find files
@@ -35,7 +43,8 @@ Plug 'git@github.com:folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'git@github.com:morhetz/gruvbox'
 Plug 'git@github.com:haishanh/night-owl.vim'
 
-Plug 'git@github.com:iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+" Plug 'git@github.com:iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+
 Plug 'git@github.com:dense-analysis/ale' " Syntax testing.
 
 Plug 'git@github.com:SirVer/ultisnips'

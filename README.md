@@ -195,6 +195,12 @@ https://github.com/tpope/vim-surround
 
 https://github.com/vim-syntastic/syntastic
 
+### far
+
+far.vim - Find And Replace Vim plugin
+
+https://github.com/brooth/far.vim
+
 ## 我的
 
 ```
