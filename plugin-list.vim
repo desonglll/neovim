@@ -8,6 +8,23 @@ call plug#begin('$HOME/.vim/plugged')
 " Plug 'git@github.com:preservim/vim-markdown'
 Plug 'git@github.com:easymotion/vim-easymotion'
 
+" wilder vim terminal auto completion.
+if has('nvim')
+  function! UpdateRemotePlugins(...)
+    " Needed to refresh runtime files
+    let &rtp=&rtp
+    UpdateRemotePlugins
+  endfunction
+
+  Plug 'gelguy/wilder.nvim', { 'do': function('UpdateRemotePlugins') }
+else
+  Plug 'gelguy/wilder.nvim'
+
+  " To use Python remote plugin features in Vim, can be skipped
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+
 Plug 'git@github.com:tpope/vim-fugitive.git'
 
 Plug 'git@github.com:brooth/far.vim.git'

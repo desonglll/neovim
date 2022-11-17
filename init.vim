@@ -16,4 +16,5 @@ source $HOME/.config/nvim/plugins/vim-markdown-preview.vim
 " source $HOME/.config/nvim/plugins/tagbar.vim
 source $HOME/.config/nvim/plugins/auto-save.vim
 source $HOME/.config/nvim/plugins/easy-motion.vim
+source $HOME/.config/nvim/plugins/wilder.vim
 
