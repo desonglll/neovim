@@ -6,6 +6,8 @@ call plug#begin('$HOME/.vim/plugged')
 " Plug 'git@github.com:godlygeek/tabular'
 " Plug 'git@github.com:preservim/vim-markdown'
 
+" Plug 'git@github.com:nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 Plug 'git@github.com:voldikss/vim-floaterm.git'
 
 Plug 'git@github.com:mhinz/vim-startify.git'
