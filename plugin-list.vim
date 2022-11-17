@@ -42,7 +42,11 @@ Plug 'git@github.com:ap/vim-css-color' " CSS Color Preview
 " Plug 'git@github.com:tc50cal/vim-terminal' " Vim Terminal
 Plug 'git@github.com:preservim/tagbar' " Tagbar for code navigation
 Plug 'git@github.com:terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
+
 Plug 'git@github.com:neoclide/coc.nvim', {'branch': 'release'}
+" {'do': 'yarn install'}
+Plug 'git@github.com:neoclide/coc-snippets.git', {'do': 'yarn install --frozen-lockfile'}
+
 Plug 'git@github.com:preservim/nerdtree' " NerdTree
 " Plug 'git@github.com:tiagofumo/vim-nerdtree-syntax-highligh'
 
@@ -68,7 +72,7 @@ Plug 'git@github.com:haishanh/night-owl.vim'
 Plug 'git@github.com:dense-analysis/ale' " Syntax testing.
 
 Plug 'git@github.com:SirVer/ultisnips'
-" Plug 'git@github.com:honza/vim-snippets'
+Plug 'git@github.com:honza/vim-snippets'
 
 Plug 'git@github.com:jiangmiao/auto-pairs'
 " Plug 'git@github.com:neovim/nvim-lspconfig'

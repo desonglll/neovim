@@ -500,7 +500,15 @@ pip3 install jedi
 
 ```shell
 pip3 install pynvim
+
+cd ~/.vim/plugged/coc.vim
+yarn install
+
+cd ~/.vim/plugged/coc-snippets
+yarn install
 ```
+
+
 
 ## 案件冲突
 

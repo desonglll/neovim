@@ -14,4 +14,4 @@ set cindent
 set expandtab
 " copy to system clipboard
 set clipboard=unnamed
-
+set modifiable
