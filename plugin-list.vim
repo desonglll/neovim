@@ -1,6 +1,5 @@
 " Specify a directory for plugins
 " call plug#begin('~/.vim/plugged')
-
 call plug#begin('$HOME/.vim/plugged')
 
 " vim-markdown
@@ -46,6 +45,7 @@ Plug 'git@github.com:terryma/vim-multiple-cursors' " CTRL + N for multiple curso
 Plug 'git@github.com:neoclide/coc.nvim', {'branch': 'release'}
 " {'do': 'yarn install'}
 Plug 'git@github.com:neoclide/coc-snippets.git', {'do': 'yarn install --frozen-lockfile'}
+" Plug 'git@github.com:neoclide/coc-tabnine.git'
 
 Plug 'git@github.com:preservim/nerdtree' " NerdTree
 " Plug 'git@github.com:tiagofumo/vim-nerdtree-syntax-highligh'
