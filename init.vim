@@ -18,5 +18,3 @@ source $HOME/.config/nvim/plugins/auto-save.vim
 source $HOME/.config/nvim/plugins/easy-motion.vim
 source $HOME/.config/nvim/plugins/wilder.vim
 source $HOME/.config/nvim/plugins/gruvbox.vim
-" source $HOME/.config/nvim/plugins/dashboard.vim
-

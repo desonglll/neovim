@@ -8,7 +8,7 @@ call plug#begin('$HOME/.vim/plugged')
 
 Plug 'git@github.com:voldikss/vim-floaterm.git'
 
-Plug 'git@github.com:glepnir/dashboard-nvim'
+Plug 'git@github.com:mhinz/vim-startify.git'
 
 Plug 'git@github.com:easymotion/vim-easymotion'
 
