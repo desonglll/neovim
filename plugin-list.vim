@@ -23,21 +23,21 @@ Plug 'git@github.com:easymotion/vim-easymotion'
 
 " wilder vim terminal auto completion.
 
-" if has('nvim')
-"   function! UpdateRemotePlugins(...)
-"     " Needed to refresh runtime files
-"     let &rtp=&rtp
-"     UpdateRemotePlugins
-"   endfunction
+if has('nvim')
+  function! UpdateRemotePlugins(...)
+    " Needed to refresh runtime files
+    let &rtp=&rtp
+    UpdateRemotePlugins
+  endfunction
 
-"   Plug 'git@github.com:gelguy/wilder.nvim', { 'do': function('UpdateRemotePlugins') }
-" else
+  Plug 'git@github.com:gelguy/wilder.nvim', { 'do': function('UpdateRemotePlugins') }
+else
   Plug 'git@github.com:gelguy/wilder.nvim'
 
   " To use Python remote plugin features in Vim, can be skipped
   Plug 'git@github.com:roxma/nvim-yarp'
   Plug 'git@github.com:roxma/vim-hug-neovim-rpc'
-" endif
+endif
 
 Plug 'git@github.com:tpope/vim-fugitive.git'
 
